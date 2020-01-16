@@ -1,6 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.16)
 
 project(swig_simple)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 set(header_files include/example.h)
